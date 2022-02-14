@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text
+{
+    cursor: pointer;
+    font-size: 150px;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(3);
+        transform: scale(-3);
+    }
+}
